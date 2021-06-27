@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    alicloud:
+      access-key: *
+      secret-key: *
+      oss:
+        endpoint: *
+        bucket: *
+  profiles:
+    include: api
